@@ -1020,7 +1020,7 @@ function handlePrimaryCta() {
   if (authStore.isAuthenticated) {
     if (authStore.isStudent) router.push('/student/dashboard')
     else if (authStore.isTa) router.push('/ta/dashboard')
-    else router.push('/admin/dashboard')
+    else router.push('/admin/executive-dashboard')
   } else {
     // By default launch student dashboard with demo account
     quickEnter('student')
@@ -1032,7 +1032,7 @@ function quickEnter(role) {
   toast.success(`Logged in as ${authStore.currentUser.name} (${authStore.currentUser.role.toUpperCase()})`)
   if (role === 'student') router.push('/student/dashboard')
   else if (role === 'ta') router.push('/ta/dashboard')
-  else router.push('/admin/dashboard')
+  else router.push('/admin/executive-dashboard')
 }
 
 function handleReset() {

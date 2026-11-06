@@ -56,7 +56,7 @@ export const useAuthStore = defineStore('auth', () => {
       return { success: true, role: 'ta', redirect: '/ta/dashboard' }
     } else if (cleanEmail === 'admin@demo.com') {
       switchRole('admin')
-      return { success: true, role: 'admin', redirect: '/admin/dashboard' }
+      return { success: true, role: 'admin', redirect: '/admin/executive-dashboard' }
     }
     // Fallback: If unknown, default to student role
     switchRole('student')
@@ -86,4 +86,3 @@ export const useAuthStore = defineStore('auth', () => {
     resetPlatformData
   }
 })
-

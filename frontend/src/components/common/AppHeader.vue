@@ -160,7 +160,7 @@ function handleRoleChange(role) {
   toast.info(`Switched view to ${role.toUpperCase()} dashboard.`)
   if (role === 'student') router.push('/student/dashboard')
   else if (role === 'ta') router.push('/ta/dashboard')
-  else router.push('/admin/dashboard')
+  else router.push('/admin/executive-dashboard')
 }
 
 function handleResetData() {

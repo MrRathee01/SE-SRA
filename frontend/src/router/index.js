@@ -54,7 +54,7 @@ const routes = [
       if (!auth.isAuthenticated) return '/login'
       if (auth.isStudent) return '/student/dashboard'
       if (auth.isTa) return '/ta/dashboard'
-      return '/admin/dashboard'
+      return '/admin/executive-dashboard'
     }
   },
   {
