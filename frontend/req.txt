@@ -1,0 +1,396 @@
+Product description
+
+STUDENT
+
+Screen 1: Student Dashboard (Home)
+Purpose: Central hub showing the student's current academic health at a glance
+Sections / Components:
+Header Banner
+Student name, profile photo, roll number, current level (Foundation / Diploma / Degree)
+Current term indicator (e.g., "Term 5 of 9")
+A Risk Status Badge — color coded: 🟢 Safe / 🟡 At Risk / 🔴 Critical
+Clicking this badge opens a drawer/modal explaining why they have that status and what to do
+Milestone Progress Card
+Visual progress bar: "X of 8 Foundation courses completed"
+Sub-indicators:
+"4 courses in 4 terms" checkpoint — ✅ Met / ⚠️ Approaching / ❌ Missed
+"6 courses in 6 terms" checkpoint — same
+"8 courses in 9 terms" final deadline — countdown in terms remaining
+If a checkpoint is missed → card turns red with a CTA: "See what this means for you"
+Quick Stats Row (4 stat cards side by side)
+Courses Completed
+Courses In Progress (this term)
+Assignments Pending
+Quizzes Pending
+Assigned TA Card
+TA name, photo, contact button (in-app message trigger)
+If no TA assigned: "No TA assigned yet" with a muted state
+Trigger: populated automatically when Admin assigns a TA
+Recent Notifications Strip
+Last 3 unread notifications with timestamps
+"View All" link → goes to Notifications Screen
+Upcoming Deadlines Widget
+List of next 5 deadlines (assignments, quizzes, exams) sorted by date
+Each item: Course name, task name, due date, days remaining
+Color coded: green (>7 days), yellow (3–7 days), red (<3 days)
+
+Screen 2: Course Planner
+Purpose: Helps students plan which courses to take in upcoming terms based on prerequisites, current status, and milestone requirements
+Sections / Components:
+Term-wise Grid View
+Columns = Terms (Term 1 through Term 9)
+Rows = Courses
+Each cell shows: Completed ✅ / In Progress 🔄 / Registered / Not Started / Blocked (due to prerequisite)
+Blocked courses show a lock icon with tooltip: "Requires [Course X] to be completed first"
+Prerequisite Chain Visualizer
+Toggle button: "Show Prerequisite Map"
+On toggle: a tree/flow diagram showing which courses unlock which
+Highlight the student's current position in the chain
+Highlight any "bottleneck" courses (e.g., Intro to Python OPPE) in orange
+Course Registration Status Panel
+This term's registered courses
+Available courses for next term (based on prerequisites cleared)
+Warning if student hasn't registered for enough courses to meet milestone pace
+e.g., "You need to register for at least 2 more courses this term to stay on track"
+Feasibility Indicator
+AI-generated assessment: "Based on your current pace, you are [on track / at risk of missing] the 8-course milestone"
+Shows projected completion term for remaining courses
+If infeasible: shows "You cannot complete all 8 courses in 9 terms at your current pace. Here's what to do →"
+Actions
+"Request Advisor Review" → triggers mentorship request flow (see Screen 5)
+
+Screen 3: My Progress
+Purpose: Detailed academic history and performance across all courses
+Sections / Components:
+Course History Table
+Columns: Course Name | Term | Grade | Attempts | Status (Pass/Fail/Ongoing/Dropped)
+Sortable and filterable by term, status, grade
+Repeat attempts highlighted — e.g., "Attempt 2 of 3" shown in orange
+Performance Trend Chart
+Line chart: Average grade per term over time
+Overlay: Milestone checkpoints marked on the x-axis
+Assignment & Quiz Tracker
+Per-course breakdown:
+Assignments: submitted / total, avg score
+Quizzes: attempted / total, avg score
+OPPE status per course (if applicable)
+Repeat Course Section
+Dedicated section showing courses attempted more than once
+For each: shows attempt history, scores, current status
+If repeated 2+ times → shows warning: "Multiple attempts detected. Consider reaching out to your TA."
+
+Screen 4: Notifications
+Purpose: Centralized notification center for all alerts relevant to the student
+Notification Types & Triggers:
+Risk Alert
+Trigger: AI pipeline flags the student as at-risk or upgrades risk level
+Content: "You have been flagged as At Risk. Reason: [X]. Recommended action: [Y]"
+Action button: "View Details" → opens risk explanation modal
+Action button: "Request Mentorship" → shortcut to Screen 5
+TA Assignment Notification
+Trigger: Admin assigns a TA to the student
+Content: "[TA Name] has been assigned as your Teaching Assistant. Tap to view their profile."
+Action: Opens TA profile card
+Missing Assignment / Quiz Alert
+Trigger: Assignment or quiz deadline passes without submission
+Content: "You missed [Assignment Name] in [Course]. This may affect your standing."
+Frequency: Sent once at deadline, then once more 24 hours after if still unsubmitted
+Milestone Warning
+Trigger: Student is on pace to miss a checkpoint (calculated at start of each term)
+Content: "At your current rate, you may not meet the 4-course-in-4-term milestone. Here's what you can do."
+Action button: "View Course Planner"
+Mentorship Request Status
+Trigger: Admin accepts or declines a mentorship request
+Content: "Your mentorship request has been [accepted/reviewed]. [Message from admin if any]"
+UI Details:
+Each notification has: icon (type), title, short description, timestamp, read/unread state
+Unread shown with a dot indicator
+"Mark all as read" button at top
+Filter tabs: All / Risk / Academic / TA / System
+Infinite scroll or pagination
+
+Screen 5: Mentorship Request
+Purpose: Student formally requests help/mentorship from Admin
+Form Fields:
+Subject (dropdown): Academic Difficulty / Course Planning / Personal Circumstances / OPPE Help / Other
+Description (text area): "Describe what you need help with" (max 500 chars)
+Urgency level (toggle): Normal / Urgent
+Attach relevant course(s): multi-select dropdown from their course list
+State Management:
+After submission: shows "Request Submitted" confirmation with expected response time
+If a request is already pending: shows status tracker (Submitted → Reviewed → Responded)
+History of past requests viewable below the form
+If Admin responds: notification triggers + response visible here
+
+Screen 6: Profile & Settings
+Personal details (read-only from system data)
+Notification preferences (toggle per notification type: In-App / Email)
+Change password
+Linked TA (read-only)
+
+
+TA (TEACHING ASSISTANT)
+
+Screen 1: TA Dashboard
+Purpose: Overview of TA's responsibilities and key metrics
+Tab 1: General Stats
+Summary Cards (top row)
+Total Students Assigned
+Students At Risk (🔴)
+Students Needing Attention (🟡)
+Students Safe (🟢)
+Pending Interventions (actions not yet completed)
+Risk Distribution Chart
+Donut or bar chart: breakdown of assigned students by risk level
+Clickable segments → filters the student list below
+Activity Feed
+Recent events across all assigned students
+e.g., "Riya Sharma missed 2 assignments in Statistics for Data Science — 2 hours ago"
+e.g., "Arjun Mehta's risk level changed from Safe → At Risk — 5 hours ago"
+Each item is clickable → opens that student's profile
+Upcoming Deadlines for Assigned Students
+Aggregated view of deadlines approaching in the next 7 days across all assigned students
+Sorted by urgency
+Filter: "Show only at-risk students' deadlines"
+
+Tab 2: Student Overview (Assigned Students)
+Student Table / Card Grid (toggle between views)
+Each row/card: Student Name | Roll No | Risk Status Badge | Avg Grade | Courses In Progress | Last Activity | Action button
+Sortable by: Risk Level, Name, Last Activity, Avg Grade
+Filterable by: Risk Level, Term, Course
+Bulk Actions Bar (appears when students are selected via checkbox)
+"Send notification to selected students"
+"Flag for Admin review"
+Search Bar: Search by name or roll number
+At-Risk Students Sub-Tab
+Pre-filtered view showing only 🟡 and 🔴 students
+Sorted by severity
+Each card shows: reason for risk flag, last intervention (if any), days since last contact
+
+Screen 2: Student Profile View (TA's View)
+Purpose: Full academic history and context for an individual assigned student
+Sections:
+Student Header
+Name, photo, roll no, level, current term
+Risk badge (color + label + reason tooltip)
+Quick action buttons: "Send Notification" | "Log Intervention" | "Flag for Admin"
+Academic History Tab
+Same course history table as student sees (Course | Term | Grade | Attempts | Status)
+TA can add a private note per course (not visible to student)
+Repeat attempts highlighted
+Performance Trends Tab
+Grade trend chart per course over terms
+Comparison: student's avg vs cohort avg (anonymized)
+Quiz and assignment submission rates over time
+Intervention History Tab
+Log of all past interventions for this student
+Each entry: Date | Type of intervention | TA who did it | Outcome logged | Notes
+"Log New Intervention" button → opens modal:
+Type (dropdown): One-on-one Session / Email / Study Plan Sent / Referral to Admin / Other
+Date of intervention
+Outcome (dropdown): Positive Response / No Response / In Progress / Escalated
+Notes (text area)
+Risk Explanation Panel (right sidebar or collapsible)
+Shows exactly why the AI flagged this student
+Factors listed: e.g., "Missed 3 consecutive assignments", "Failed OPPE twice", "Below milestone pace"
+Each factor has a severity indicator
+
+Screen 3: TA Notifications
+Notification Types & Triggers:
+New Student Assigned
+Trigger: Admin assigns a student to this TA
+Content: "[Student Name] (Roll No: XXXX) has been assigned to you. View their profile."
+Action: Opens student profile
+Student Risk Level Change
+Trigger: AI pipeline updates a student's risk level
+Content: "[Student Name]'s risk status changed from Safe → At Risk. Reason: [X]"
+Action: "View Student" button
+Student Missed Assignment / Quiz
+Trigger: Submission deadline passes without submission for an assigned student
+Content: "[Student Name] missed [Assignment] in [Course]"
+Action: "View Student" | "Send Reminder"
+Intervention Follow-Up Reminder
+Trigger: An intervention was logged but no outcome was recorded after 7 days
+Content: "You logged an intervention for [Student Name] 7 days ago. Please update the outcome."
+Action: "Update Outcome" → opens intervention log directly
+Student Mentorship Request (via Admin)
+Trigger: Admin routes a student's mentorship request to the TA
+Content: "[Student Name] requested mentorship. Admin has assigned this to you."
+UI: Same structure as student notifications (type tabs, read/unread, timestamps)
+
+Screen 4: Profile & Settings
+TA personal details
+List of assigned students (quick view)
+Notification preferences (toggle per type)
+
+
+
+
+ADMIN
+
+Screen 1: Admin Dashboard
+Purpose: Program-wide birds-eye view
+Tab 1: General Stats
+Top KPI Cards (row of 6)
+Total Active Students
+Students At Risk (🔴)
+Students About to Be At Risk (🟡)
+Students Safe (🟢)
+Total TAs
+Open Interventions (interventions with no outcome logged)
+Risk Distribution Chart
+Stacked bar chart by term/cohort: Safe vs At Risk vs Critical
+Filter by: Level (Foundation/Diploma/Degree), Term, Cohort (intake batch)
+Clicking a segment drills down to filtered student list
+Milestone Breach Tracker
+Card showing: "X students have missed the 4-in-4 checkpoint"
+"Y students are projected to miss the 6-in-6 checkpoint this term"
+"Z students are at risk of not completing 8-in-9"
+Each number is clickable → filtered student list
+Intervention Funnel
+Visual funnel: Flagged → Assigned TA → Intervention Done → Outcome Logged → Resolved
+Shows drop-off at each stage (how many fall out of the pipeline)
+Recent Activity Feed
+Program-wide: Risk level changes, new interventions, TA assignments, mentorship requests
+Timestamped, filterable by type
+Cohort Comparison Chart
+Bar chart: Average courses completed per term across intake batches (May 2024 vs Nov 2024 etc.)
+
+Tab 2: Student Overview
+Three sub-tabs:
+🔴 At Risk (Critical)
+🟡 About to Be At Risk
+🟢 Safe
+Student Table (consistent across sub-tabs)
+Columns: Name | Roll No | Level | Term | Courses Completed | Courses In Progress | Risk Score | Assigned TA | Last Intervention | Actions
+Sortable and filterable on every column
+Bulk select with bulk actions:
+"Assign to TA" (bulk)
+"Send notification"
+"Export to CSV"
+Per-Student Quick Actions (in the table row)
+"View Profile" → Admin view of student profile
+"Assign TA" → opens TA assignment modal
+"Log Intervention" → quick-log without going into profile
+
+Tab 3: TA Overview
+TA Table
+Columns: TA Name | Students Assigned | At-Risk Count | Open Interventions | Last Active
+Clicking a TA name → TA detail view (their assigned students, intervention history)
+Workload Balance Chart
+Bar chart: number of at-risk students per TA
+Visual indicator if a TA is overloaded (threshold configurable)
+
+Screen 2: Student Profile View (Admin's View)
+Everything the TA sees, plus:
+TA Assignment Panel
+Current assigned TA (if any)
+"Reassign TA" button → opens modal with searchable TA list + their current load
+Assignment history (who was assigned when)
+Intervention History (same as TA view, but admin can see all TAs' logs)
+Mentorship Request History
+All requests submitted by this student
+Status per request: Pending / Reviewed / Actioned / Closed
+Admin can respond inline with a note
+Repeat Course Tracker Panel
+Dedicated panel: shows courses attempted 2+ times with full attempt history
+Admin can tag a pattern: "Persistent Difficulty — Referred for Academic Support"
+Risk Score Breakdown
+Detailed breakdown of how the AI arrived at the risk score
+Each contributing factor with its weight
+
+Screen 3: TA Assignment Workflow
+Trigger: Admin clicks "Assign TA" from any student card/profile
+Modal / Screen Flow:
+Step 1: Shows student info summary (risk level, current term, courses, reason for flag)
+Step 2: TA selection
+List of available TAs with: Current student load, At-risk student count, Subject expertise tags
+AI suggestion: "Recommended: [TA Name] based on availability and subject match" (highlighted)
+Admin can override and pick any TA
+Step 3: Optional message to TA (pre-filled template, editable)
+Step 4: Confirmation → triggers TA notification + student notification
+After assignment: assignment logged with timestamp in student's history
+
+Screen 4: Intervention Tracking
+Purpose: Track all interventions across the program
+Intervention Log Table
+Columns: Student | TA | Intervention Type | Date | Outcome | Notes | Follow-up Due
+Filter by: Outcome (Pending / Positive / No Response / Escalated), TA, Date range, Risk level
+Color coding by outcome status
+Overdue Follow-ups Panel
+Interventions where outcome hasn't been logged in >7 days
+"Remind TA" button per row → sends in-app nudge to that TA
+Outcome Analytics
+Chart: Intervention outcomes breakdown (% Positive / % No Response / % Escalated)
+Trend: Are interventions getting better or worse outcomes over terms?
+
+Screen 5: Repeat Course / Project Tracker
+Purpose: Dedicated view for students stuck in repeat loops
+Repeat Offender Table
+Students who have attempted the same course 2+ times
+Columns: Student | Course | Attempts | Latest Score | Risk Level | TA Assigned | Last Intervention
+Course Bottleneck Summary
+Which courses have the highest repeat rates program-wide?
+Bar chart: Top 5 most-repeated courses
+Clicking a course → shows all students currently repeating it
+Admin Actions per student in this view
+"Escalate to Academic Committee"
+"Flag for Intervention"
+"Assign TA" (if not yet assigned)
+
+Screen 6: Mentorship Requests (Inbox)
+Request List
+Columns: Student | Subject | Urgency | Submitted Date | Status
+Filter: Pending / In Progress / Closed
+Unread requests badged in red
+Per-Request Detail View
+Student info + risk context shown alongside their message
+Admin response box (with template options)
+Option: "Route to TA" → assigns to a specific TA + notifies them
+Status updater: Mark as Reviewed / Actioned / Closed
+
+Screen 7: Notification Management (Admin Sends)
+Compose Notification
+Audience selector: All Students / At-Risk Students / Specific Cohort / Individual Student / All TAs / Specific TA
+Notification type: Risk Alert / Milestone Warning / General Announcement / Intervention Follow-up
+Message body (with variable insertion: {{student_name}}, {{risk_reason}})
+Schedule: Send now / Schedule for later (date/time picker)
+Preview before send
+Sent Notifications Log
+History of all admin-sent notifications
+Columns: Audience | Type | Message | Sent At | Read Rate (% opened)
+
+Screen 8: System Settings / Config (Admin Only)
+Risk Threshold Configuration
+Set what constitutes "At Risk" vs "Critical" (e.g., tune the weights of each factor)
+Toggle which signals the AI pipeline uses
+Milestone Rules
+View and confirm current milestone rules (read-only unless super-admin)
+TA Management
+Add/remove TAs
+Set max students per TA threshold
+Notification Templates
+Edit default templates for each notification type
+
+
+Dummy Schema
+
+Course Registration Data Schema: { email	                    : The registered personal email id of the student roll_number	                : The roll number of the student within the program student_email	            : The email of the student provided by the program full_name	                : The full name of the student current_level	            : The current level of the student (FOUNDATION,DIPLOMA,DEGREE,BS DEGREE,PGD,MTECH) course_code	                : The code of the course (e.g. CS1001,CS1002, etc) course_name	                : The name of the course (e.g. Computational Thinking, Programming in Python, etc) course_registration_type	: The type of course registration (e.g. IMPROVEMENT,NEW_COURSE,REPEAT_FULL_COURSE,REPEAT_END_TERM_ONLY,REPEAT_OPPE_ONLY,REPEAT_OPPE_END_TERM) term_code	                : The code of the term (e.g. F1-2026,F2-2026, etc) mobile	                    : The mobile number of the student student_status	            : The status of the student (e.g. ACTIVE, STRUCK_OFF_ROLL, INACTIVE) account_id	                : The UUID of the student as seen in the workflow Program                     : The name of the program (e.g. IITM_BS_DSA,IITM_BS_MGD,IITM_BS_ES, IITM_BS_AERO) },
+Project Registration Data Schema: { email	                    : The registered personal email id of the student roll_number	                : The roll number of the student within the program student_email	            : The email of the student provided by the program course_code	                : The code of the project (e.g. MS2001P,CS2003P, etc) name	                    : The name of the project (e.g. BDM Capstone, MAD 1 Project, etc) project_registration_type	: The type of project registration (e.g. NEW,RETRY,IMPROVEMENT) term_code	                : The code of the term (e.g. F1-2026,F2-2026, etc) student_status	            : The status of the student (e.g. ACTIVE, INACTIVE) Program                     : The name of the program (e.g. IITM_BS_DSA,IITM_BS_MGD,IITM_BS_ES, IITM_BS_AERO) },
+Course Score Schema: { roll_number	                : The roll number of the student within the program student_email	            : The email of the student provided by the program course_code	                : The code of the course (e.g. CS1001,CS1002, etc) course_name	                : The name of the course (e.g. Computational Thinking, Programming in Python, etc) term_code	                : The code of the term (e.g. 2026-T1,2026-T2, etc) test_code	                : The code for the test for which marks are shared (ASSIGNMENT_1, ASSIGNMENT_2,.., WEEK01_GRPA1,.. QUIZ1, QUIZ2, END_EXAM,BONUS) test_score	                : The score obtained by the student in the test grade                       : The final letter grade obtained by the student in the course (e.g. S,A,B,C,D,E,U,W,I,I_OP) },
+Project Evaluation Schema: { roll_number	                : The roll number of the student within the program student_email	            : The email of the student provided by the program project_code	            : The code of the project (e.g. MS2001P,CS2003P, etc) project_name	            : The name of the project (e.g. BDM Capstone, MAD 1 Project, etc) term_code	                : The code of the term (e.g. F1-2026,F2-2026, etc) m1_completion_status	    : The status of the student's completion of the first milestone (e.g. COMPLETED, NOT_COMPLETED) m2_completion_status	    : The status of the student's completion of the second milestone (e.g. COMPLETED, NOT_COMPLETED) ... l1_completion_status	    : The status of the student's completion of the first level viva (e.g. COMPLETED, NOT_COMPLETED) l1_score                    : The score obtained by the student in the first level viva l2_completion_status	    : The status of the student's completion of the second level viva (e.g. COMPLETED, NOT_COMPLETED) l2_score                    : The score obtained by the student in the second level viva grade                       : The final grade obtained by the student in the project (e.g. S,A,B,C,D,E,U,W,I,I_OP) }
+
+
+Problem statement
+The IITM BS Degree Program has students progressing through different levels of the program: Foundation, Diploma and Degree. At present, it is difficult for program administrators to systematically identify students who may be at risk of academic disengagement, delayed progression or dropping out.
+The goal of this project is to design and develop a platform that can help identify potentially at-risk students at different stages of the program, notify relevant administrators and support appropriate interventions.
+The system should enable relevant stakeholders to understand why a student may be at risk, track interventions, and provide appropriate recommendations or next steps for students, faculty and administrators.
+Expected outcome
+An API-based platform that can:
+Identify and categorize students who may require attention based on relevant indicators.
+Provide appropriate information and alerts to TAs/administrators.
+Support tracking of interventions and their outcomes.
+Suggest possible interventions or remedial actions for different stakeholders.
+Provide appropriate views and functionality for students, faculty/TAs and administrators.
+Maintain a history of important decisions/actions so that interventions can be followed up.
+Teams are expected to determine the relevant indicators, workflows, user roles and intervention mechanisms through requirements analysis and interaction with the client.

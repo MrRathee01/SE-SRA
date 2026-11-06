@@ -1,0 +1,1731 @@
+[
+  {
+    "course_code": "CS1002",
+    "course_name": "Programming in Python",
+    "attempts": {
+      "1": 30450,
+      "2": 24297,
+      "3": 14871,
+      "4": 9006,
+      "5": 5978,
+      "6": 3664,
+      "7": 2093,
+      "8": 762,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 91121,
+    "total_repeats": 60671,
+    "repeat_rate_pct": 66.58
+  },
+  {
+    "course_code": "MA1003",
+    "course_name": "Mathematics for Data Science II",
+    "attempts": {
+      "1": 30693,
+      "2": 20696,
+      "3": 12650,
+      "4": 7610,
+      "5": 4815,
+      "6": 2892,
+      "7": 2017,
+      "8": 752,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 82125,
+    "total_repeats": 51432,
+    "repeat_rate_pct": 62.63
+  },
+  {
+    "course_code": "MA1004",
+    "course_name": "Statistics for Data Science II",
+    "attempts": {
+      "1": 26995,
+      "2": 20689,
+      "3": 11685,
+      "4": 7258,
+      "5": 4011,
+      "6": 2358,
+      "7": 1204,
+      "8": 240,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 74440,
+    "total_repeats": 47445,
+    "repeat_rate_pct": 63.74
+  },
+  {
+    "course_code": "MA1002",
+    "course_name": "Statistics for Data Science I",
+    "attempts": {
+      "1": 58484,
+      "2": 20625,
+      "3": 10940,
+      "4": 6000,
+      "5": 2301,
+      "6": 1686,
+      "7": 1190,
+      "8": 785,
+      "9": 162,
+      "gt9": 0
+    },
+    "total_students": 102173,
+    "total_repeats": 43689,
+    "repeat_rate_pct": 42.76
+  },
+  {
+    "course_code": "MA1001",
+    "course_name": "Mathematics for Data Science I",
+    "attempts": {
+      "1": 59998,
+      "2": 20613,
+      "3": 11323,
+      "4": 6793,
+      "5": 2750,
+      "6": 1938,
+      "7": 1449,
+      "8": 1008,
+      "9": 262,
+      "gt9": 0
+    },
+    "total_students": 106134,
+    "total_repeats": 46136,
+    "repeat_rate_pct": 43.47
+  },
+  {
+    "course_code": "CS1001",
+    "course_name": "Computational Thinking",
+    "attempts": {
+      "1": 62688,
+      "2": 19304,
+      "3": 7893,
+      "4": 4040,
+      "5": 1260,
+      "6": 690,
+      "7": 434,
+      "8": 328,
+      "9": 54,
+      "gt9": 0
+    },
+    "total_students": 96691,
+    "total_repeats": 34003,
+    "repeat_rate_pct": 35.17
+  },
+  {
+    "course_code": "HS1001",
+    "course_name": "English I",
+    "attempts": {
+      "1": 69922,
+      "2": 9309,
+      "3": 1881,
+      "4": 744,
+      "5": 180,
+      "6": 90,
+      "7": 70,
+      "8": 32,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 82228,
+    "total_repeats": 12306,
+    "repeat_rate_pct": 14.97
+  },
+  {
+    "course_code": "CS2001",
+    "course_name": "Database Management Systems",
+    "attempts": {
+      "1": 16459,
+      "2": 8810,
+      "3": 3735,
+      "4": 1671,
+      "5": 918,
+      "6": 386,
+      "7": 328,
+      "8": 121,
+      "9": 45,
+      "gt9": 51
+    },
+    "total_students": 32524,
+    "total_repeats": 16065,
+    "repeat_rate_pct": 49.39
+  },
+  {
+    "course_code": "HS1002",
+    "course_name": "English II",
+    "attempts": {
+      "1": 48797,
+      "2": 7769,
+      "3": 1680,
+      "4": 616,
+      "5": 280,
+      "6": 138,
+      "7": 91,
+      "8": 8,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 59379,
+    "total_repeats": 10582,
+    "repeat_rate_pct": 17.82
+  },
+  {
+    "course_code": "SE2001",
+    "course_name": "System Commands",
+    "attempts": {
+      "1": 9653,
+      "2": 6428,
+      "3": 3122,
+      "4": 1677,
+      "5": 810,
+      "6": 494,
+      "7": 288,
+      "8": 217,
+      "9": 46,
+      "gt9": 81
+    },
+    "total_students": 22816,
+    "total_repeats": 13163,
+    "repeat_rate_pct": 57.69
+  },
+  {
+    "course_code": "CS2004",
+    "course_name": "Machine Learning Foundations",
+    "attempts": {
+      "1": 18754,
+      "2": 6192,
+      "3": 2523,
+      "4": 1036,
+      "5": 480,
+      "6": 132,
+      "7": 70,
+      "8": 64,
+      "9": 54,
+      "gt9": 31
+    },
+    "total_students": 29336,
+    "total_repeats": 10582,
+    "repeat_rate_pct": 36.07
+  },
+  {
+    "course_code": "CS2002",
+    "course_name": "Programming, Data Structures and Algorithms using Python",
+    "attempts": {
+      "1": 15792,
+      "2": 6158,
+      "3": 2526,
+      "4": 1072,
+      "5": 546,
+      "6": 270,
+      "7": 238,
+      "8": 96,
+      "9": 18,
+      "gt9": 20
+    },
+    "total_students": 26736,
+    "total_repeats": 10944,
+    "repeat_rate_pct": 40.93
+  },
+  {
+    "course_code": "CS2007",
+    "course_name": "Machine Learning Techniques",
+    "attempts": {
+      "1": 13901,
+      "2": 6042,
+      "3": 2438,
+      "4": 957,
+      "5": 559,
+      "6": 188,
+      "7": 92,
+      "8": 48,
+      "9": 36,
+      "gt9": 0
+    },
+    "total_students": 24261,
+    "total_repeats": 10360,
+    "repeat_rate_pct": 42.7
+  },
+  {
+    "course_code": "CS2005",
+    "course_name": "Programming Concepts using Java",
+    "attempts": {
+      "1": 10802,
+      "2": 5368,
+      "3": 2564,
+      "4": 1224,
+      "5": 600,
+      "6": 360,
+      "7": 238,
+      "8": 112,
+      "9": 54,
+      "gt9": 64
+    },
+    "total_students": 21386,
+    "total_repeats": 10584,
+    "repeat_rate_pct": 49.49
+  },
+  {
+    "course_code": "CS2003",
+    "course_name": "Modern Application Development I",
+    "attempts": {
+      "1": 16414,
+      "2": 4116,
+      "3": 1048,
+      "4": 337,
+      "5": 175,
+      "6": 36,
+      "7": 49,
+      "8": 8,
+      "9": 9,
+      "gt9": 10
+    },
+    "total_students": 22202,
+    "total_repeats": 5788,
+    "repeat_rate_pct": 26.07
+  },
+  {
+    "course_code": "CS2008",
+    "course_name": "Machine Learning Practice",
+    "attempts": {
+      "1": 9487,
+      "2": 4061,
+      "3": 1725,
+      "4": 767,
+      "5": 401,
+      "6": 241,
+      "7": 98,
+      "8": 92,
+      "9": 39,
+      "gt9": 22
+    },
+    "total_students": 16933,
+    "total_repeats": 7446,
+    "repeat_rate_pct": 43.97
+  },
+  {
+    "course_code": "MS2001",
+    "course_name": "Business Data Management",
+    "attempts": {
+      "1": 17450,
+      "2": 3487,
+      "3": 889,
+      "4": 298,
+      "5": 162,
+      "6": 78,
+      "7": 21,
+      "8": 16,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 22401,
+    "total_repeats": 4951,
+    "repeat_rate_pct": 22.1
+  },
+  {
+    "course_code": "MS2002",
+    "course_name": "Business Analytics",
+    "attempts": {
+      "1": 9421,
+      "2": 3407,
+      "3": 1159,
+      "4": 484,
+      "5": 198,
+      "6": 109,
+      "7": 22,
+      "8": 33,
+      "9": 18,
+      "gt9": 0
+    },
+    "total_students": 14851,
+    "total_repeats": 5430,
+    "repeat_rate_pct": 36.56
+  },
+  {
+    "course_code": "SE2002",
+    "course_name": "Tools in Data Science",
+    "attempts": {
+      "1": 11066,
+      "2": 2862,
+      "3": 1055,
+      "4": 645,
+      "5": 293,
+      "6": 170,
+      "7": 59,
+      "8": 17,
+      "9": 27,
+      "gt9": 22
+    },
+    "total_students": 16216,
+    "total_repeats": 5150,
+    "repeat_rate_pct": 31.76
+  },
+  {
+    "course_code": "CS2006",
+    "course_name": "Modern Application Development II",
+    "attempts": {
+      "1": 11070,
+      "2": 2598,
+      "3": 802,
+      "4": 209,
+      "5": 81,
+      "6": 72,
+      "7": 21,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 14853,
+    "total_repeats": 3783,
+    "repeat_rate_pct": 25.47
+  },
+  {
+    "course_code": "DA2001",
+    "course_name": "Introduction to Deep Learning and Generative AI",
+    "attempts": {
+      "1": 4964,
+      "2": 1018,
+      "3": 321,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 6303,
+    "total_repeats": 1339,
+    "repeat_rate_pct": 21.24
+  },
+  {
+    "course_code": "CS3004",
+    "course_name": "Deep Learning",
+    "attempts": {
+      "1": 2583,
+      "2": 734,
+      "3": 177,
+      "4": 80,
+      "5": 35,
+      "6": 18,
+      "7": 7,
+      "8": 16,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 3650,
+    "total_repeats": 1067,
+    "repeat_rate_pct": 29.23
+  },
+  {
+    "course_code": "CS3003",
+    "course_name": "AI: Search Methods for Problem Solving",
+    "attempts": {
+      "1": 2710,
+      "2": 539,
+      "3": 131,
+      "4": 52,
+      "5": 27,
+      "6": 13,
+      "7": 16,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 3488,
+    "total_repeats": 778,
+    "repeat_rate_pct": 22.31
+  },
+  {
+    "course_code": "CS3002",
+    "course_name": "Software Testing",
+    "attempts": {
+      "1": 2702,
+      "2": 186,
+      "3": 30,
+      "4": 12,
+      "5": 5,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2935,
+    "total_repeats": 233,
+    "repeat_rate_pct": 7.94
+  },
+  {
+    "course_code": "GN3001",
+    "course_name": "Strategies for Professional Growth",
+    "attempts": {
+      "1": 2779,
+      "2": 96,
+      "3": 3,
+      "4": 4,
+      "5": 0,
+      "6": 6,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2888,
+    "total_repeats": 109,
+    "repeat_rate_pct": 3.77
+  },
+  {
+    "course_code": "MS3033",
+    "course_name": "Managerial Economics",
+    "attempts": {
+      "1": 1339,
+      "2": 88,
+      "3": 9,
+      "4": 4,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 1440,
+    "total_repeats": 101,
+    "repeat_rate_pct": 7.01
+  },
+  {
+    "course_code": "CS3001",
+    "course_name": "Software Engineering",
+    "attempts": {
+      "1": 2790,
+      "2": 70,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2863,
+    "total_repeats": 73,
+    "repeat_rate_pct": 2.55
+  },
+  {
+    "course_code": "DA5001",
+    "course_name": "Introduction to Big Data",
+    "attempts": {
+      "1": 487,
+      "2": 52,
+      "3": 12,
+      "4": 0,
+      "5": 5,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 556,
+    "total_repeats": 69,
+    "repeat_rate_pct": 12.41
+  },
+  {
+    "course_code": "DA5013",
+    "course_name": "Deep Learning Practice",
+    "attempts": {
+      "1": 859,
+      "2": 48,
+      "3": 9,
+      "4": 4,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 920,
+    "total_repeats": 61,
+    "repeat_rate_pct": 6.63
+  },
+  {
+    "course_code": "MS3034",
+    "course_name": "Corporate Finance",
+    "attempts": {
+      "1": 856,
+      "2": 48,
+      "3": 3,
+      "4": 4,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 911,
+    "total_repeats": 55,
+    "repeat_rate_pct": 6.04
+  },
+  {
+    "course_code": "DA5004",
+    "course_name": "Large Language Models",
+    "attempts": {
+      "1": 933,
+      "2": 48,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 984,
+    "total_repeats": 51,
+    "repeat_rate_pct": 5.18
+  },
+  {
+    "course_code": "CS3005",
+    "course_name": "Programming in C",
+    "attempts": {
+      "1": 911,
+      "2": 40,
+      "3": 9,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 960,
+    "total_repeats": 49,
+    "repeat_rate_pct": 5.1
+  },
+  {
+    "course_code": "DA5007",
+    "course_name": "Reinforcement Learning",
+    "attempts": {
+      "1": 375,
+      "2": 38,
+      "3": 7,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 420,
+    "total_repeats": 45,
+    "repeat_rate_pct": 10.71
+  },
+  {
+    "course_code": "MS4023",
+    "course_name": "Game Theory and Strategy",
+    "attempts": {
+      "1": 832,
+      "2": 34,
+      "3": 9,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 875,
+    "total_repeats": 43,
+    "repeat_rate_pct": 4.91
+  },
+  {
+    "course_code": "CS3031",
+    "course_name": "Computer Systems Design",
+    "attempts": {
+      "1": 355,
+      "2": 32,
+      "3": 6,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 393,
+    "total_repeats": 38,
+    "repeat_rate_pct": 9.67
+  },
+  {
+    "course_code": "DA5014",
+    "course_name": "ML Ops",
+    "attempts": {
+      "1": 637,
+      "2": 29,
+      "3": 9,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 675,
+    "total_repeats": 38,
+    "repeat_rate_pct": 5.63
+  },
+  {
+    "course_code": "DA5002",
+    "course_name": "Mathematical Foundations of Generative AI",
+    "attempts": {
+      "1": 466,
+      "2": 26,
+      "3": 0,
+      "4": 4,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 496,
+    "total_repeats": 30,
+    "repeat_rate_pct": 6.05
+  },
+  {
+    "course_code": "BT4001",
+    "course_name": "Algorithmic Thinking in Bioinformatics",
+    "attempts": {
+      "1": 327,
+      "2": 26,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 356,
+    "total_repeats": 29,
+    "repeat_rate_pct": 8.15
+  },
+  {
+    "course_code": "CS4004",
+    "course_name": "Introduction to Big Data",
+    "attempts": {
+      "1": 258,
+      "2": 24,
+      "3": 9,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 291,
+    "total_repeats": 33,
+    "repeat_rate_pct": 11.34
+  },
+  {
+    "course_code": "MS4001",
+    "course_name": "Industry 4.0",
+    "attempts": {
+      "1": 655,
+      "2": 22,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 677,
+    "total_repeats": 22,
+    "repeat_rate_pct": 3.25
+  },
+  {
+    "course_code": "CS5003",
+    "course_name": "Deep Learning for Computer Vision",
+    "attempts": {
+      "1": 233,
+      "2": 22,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 258,
+    "total_repeats": 25,
+    "repeat_rate_pct": 9.69
+  },
+  {
+    "course_code": "POSH",
+    "course_name": "POSH Training",
+    "attempts": {
+      "1": 40831,
+      "2": 20,
+      "3": 21,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 40872,
+    "total_repeats": 41,
+    "repeat_rate_pct": 0.1
+  },
+  {
+    "course_code": "MS4003",
+    "course_name": "Financial Forensics",
+    "attempts": {
+      "1": 350,
+      "2": 18,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 371,
+    "total_repeats": 21,
+    "repeat_rate_pct": 5.66
+  },
+  {
+    "course_code": "CS4010",
+    "course_name": "Application Development Lab",
+    "attempts": {
+      "1": 94,
+      "2": 16,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 110,
+    "total_repeats": 16,
+    "repeat_rate_pct": 14.55
+  },
+  {
+    "course_code": "CS5001",
+    "course_name": "Large Language Models",
+    "attempts": {
+      "1": 425,
+      "2": 16,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 441,
+    "total_repeats": 16,
+    "repeat_rate_pct": 3.63
+  },
+  {
+    "course_code": "CS4002",
+    "course_name": "Special topics in Machine Learning (Reinforcement Learning)",
+    "attempts": {
+      "1": 192,
+      "2": 14,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 209,
+    "total_repeats": 17,
+    "repeat_rate_pct": 8.13
+  },
+  {
+    "course_code": "DA5006",
+    "course_name": "Deep Learning for Computer Vision",
+    "attempts": {
+      "1": 398,
+      "2": 14,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 415,
+    "total_repeats": 17,
+    "repeat_rate_pct": 4.1
+  },
+  {
+    "course_code": "MS3002",
+    "course_name": "Market Research",
+    "attempts": {
+      "1": 876,
+      "2": 12,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 891,
+    "total_repeats": 15,
+    "repeat_rate_pct": 1.68
+  },
+  {
+    "course_code": "DA5003",
+    "course_name": "Algorithms for Data Science",
+    "attempts": {
+      "1": 204,
+      "2": 12,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 216,
+    "total_repeats": 12,
+    "repeat_rate_pct": 5.56
+  },
+  {
+    "course_code": "DA4001",
+    "course_name": "Data Science and AI Lab",
+    "attempts": {
+      "1": 171,
+      "2": 12,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 183,
+    "total_repeats": 12,
+    "repeat_rate_pct": 6.56
+  },
+  {
+    "course_code": "CS4003",
+    "course_name": "Privacy & Security in Online Social Media",
+    "attempts": {
+      "1": 257,
+      "2": 9,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 266,
+    "total_repeats": 9,
+    "repeat_rate_pct": 3.38
+  },
+  {
+    "course_code": "CS4021",
+    "course_name": "Advanced Algorithms",
+    "attempts": {
+      "1": 197,
+      "2": 6,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 203,
+    "total_repeats": 6,
+    "repeat_rate_pct": 2.96
+  },
+  {
+    "course_code": "MS4002",
+    "course_name": "Design Thinking for Data-Driven App Development",
+    "attempts": {
+      "1": 333,
+      "2": 6,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 339,
+    "total_repeats": 6,
+    "repeat_rate_pct": 1.77
+  },
+  {
+    "course_code": "MA3012",
+    "course_name": "Linear Statistical Models",
+    "attempts": {
+      "1": 136,
+      "2": 6,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 145,
+    "total_repeats": 9,
+    "repeat_rate_pct": 6.21
+  },
+  {
+    "course_code": "MA3014",
+    "course_name": "Statistical Computing",
+    "attempts": {
+      "1": 129,
+      "2": 6,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 135,
+    "total_repeats": 6,
+    "repeat_rate_pct": 4.44
+  },
+  {
+    "course_code": "MA2001",
+    "course_name": "Mathematical Thinking",
+    "attempts": {
+      "1": 125,
+      "2": 6,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 131,
+    "total_repeats": 6,
+    "repeat_rate_pct": 4.58
+  },
+  {
+    "course_code": "CS5002",
+    "course_name": "Introduction to Natural Language Processing (i-NLP)",
+    "attempts": {
+      "1": 108,
+      "2": 4,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 112,
+    "total_repeats": 4,
+    "repeat_rate_pct": 3.57
+  },
+  {
+    "course_code": "CS6024",
+    "course_name": "Algorithmic Approaches to Computational Biology",
+    "attempts": {
+      "1": 4,
+      "2": 3,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 7,
+    "total_repeats": 3,
+    "repeat_rate_pct": 42.86
+  },
+  {
+    "course_code": "CS4022",
+    "course_name": "Operating Systems",
+    "attempts": {
+      "1": 112,
+      "2": 3,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 115,
+    "total_repeats": 3,
+    "repeat_rate_pct": 2.61
+  },
+  {
+    "course_code": "CS3021",
+    "course_name": "Theory of Computation",
+    "attempts": {
+      "1": 65,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 67,
+    "total_repeats": 2,
+    "repeat_rate_pct": 2.99
+  },
+  {
+    "course_code": "EE4001",
+    "course_name": "Speech Technology",
+    "attempts": {
+      "1": 88,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 90,
+    "total_repeats": 2,
+    "repeat_rate_pct": 2.22
+  },
+  {
+    "course_code": "CS6251",
+    "course_name": "Computational Models of Cognition",
+    "attempts": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MA6380",
+    "course_name": "Stochastic Methods in Industry",
+    "attempts": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "CS4001",
+    "course_name": "Data Visualization Design",
+    "attempts": {
+      "1": 392,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 392,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "EE2103",
+    "course_name": "Digital System Design",
+    "attempts": {
+      "1": 7,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 7,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "CS6046",
+    "course_name": "Multi-armed bandits",
+    "attempts": {
+      "1": 3,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 3,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "CS4032",
+    "course_name": "Compiler Design",
+    "attempts": {
+      "1": 14,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 14,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "EE5179",
+    "course_name": "Deep Learning for Imaging",
+    "attempts": {
+      "1": 3,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 3,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MS2001P",
+    "course_name": "Business Data Management - Project",
+    "attempts": {
+      "1": 136,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 136,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "CS6858",
+    "course_name": "Distributed Trust",
+    "attempts": {
+      "1": 8,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 8,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "DA2001P",
+    "course_name": "Deep Learning and Generative AI Project",
+    "attempts": {
+      "1": 2210,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2210,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MS1204",
+    "course_name": "Management Thought and Practice",
+    "attempts": {
+      "1": 555,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 555,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MA3001",
+    "course_name": "Discrete Mathematics",
+    "attempts": {
+      "1": 41,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 41,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "CS6700",
+    "course_name": "Reinforcement Learning",
+    "attempts": {
+      "1": 4,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 4,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MS5251",
+    "course_name": "Research for Marketing Decisions",
+    "attempts": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MA5013",
+    "course_name": "Applied regression analysis",
+    "attempts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 1,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MS1201",
+    "course_name": "Principles of Economics",
+    "attempts": {
+      "1": 666,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 666,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "CS2006P",
+    "course_name": "Modern Application Development II - Project",
+    "attempts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 1,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "DA6400",
+    "course_name": "Introduction to Reinforcement Learning",
+    "attempts": {
+      "1": 5,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 5,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "CS3205",
+    "course_name": "Introduction to Computer Networks",
+    "attempts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 1,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "CS2008P",
+    "course_name": "Machine Learning Practice - Project",
+    "attempts": {
+      "1": 1967,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 1967,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MS1203",
+    "course_name": "Business Statistics",
+    "attempts": {
+      "1": 547,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 547,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MA5755",
+    "course_name": "Data Analysis & Visualization in R/Python/SQL",
+    "attempts": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "BT4002",
+    "course_name": "Big Data and Biological Networks",
+    "attempts": {
+      "1": 201,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 201,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "EE2106",
+    "course_name": "Computer Organisation",
+    "attempts": {
+      "1": 15,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 15,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "CS4024",
+    "course_name": "Computer Networks",
+    "attempts": {
+      "1": 83,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 83,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "DA6701",
+    "course_name": "Data Science and AI in Finance",
+    "attempts": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "EE5143",
+    "course_name": "Information Theory",
+    "attempts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 1,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "EE5178",
+    "course_name": "Modern Computer Vision",
+    "attempts": {
+      "1": 4,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 4,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "MS1202",
+    "course_name": "Financial Accounting",
+    "attempts": {
+      "1": 575,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 575,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  },
+  {
+    "course_code": "HS5340",
+    "course_name": "Money, Banking and Financial Markets",
+    "attempts": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "gt9": 0
+    },
+    "total_students": 2,
+    "total_repeats": 0,
+    "repeat_rate_pct": 0.0
+  }
+]
