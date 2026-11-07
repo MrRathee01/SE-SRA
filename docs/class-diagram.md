@@ -30,7 +30,6 @@ class AdminStore {
 
 class StudentStore {
   +student: Student
-  +courses: Course[]
   +assignedTa: TeachingAssistant
   +mentorshipRequests: MentorshipRequest[]
   +notifPreferences: NotificationPreferences

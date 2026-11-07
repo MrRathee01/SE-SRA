@@ -110,7 +110,7 @@ flowchart TB
 | Public | `/login` | Demo account selection and role sign-in. |
 | Shared | `/dashboard` | Redirects to the dashboard for the current role; admin goes to the executive dashboard. |
 | Student | `/student/dashboard` | Personal standing, milestones, risk explanation, deadlines, TA, and notices. |
-| Student | `/student/course-planner` | Course planning, prerequisites, and advisor review request. |
+| Student | Dashboard external link | Opens the separately deployed course planner at `https://course-planner-140256174016.asia-south1.run.app/login`. The former in-app planner page has been removed. |
 | Student | `/student/progress` | Course results, attempts, and academic progress. |
 | Student | `/student/mentorship` | Submit and track mentorship requests; show assigned TA availability. |
 | Student | `/student/notifications` | Filter, read, and dismiss notifications. |
@@ -130,6 +130,8 @@ flowchart TB
 | Admin | `/admin/settings` | Risk thresholds, weights, signal toggles, pacing rules, TA capacity, and templates. |
 
 All student, TA, and admin routes render inside `AppLayout`. The router guard redirects unauthenticated users to login and blocks navigation into another role's pages. Home and login are public and render outside that shell.
+
+The legacy `/student/course-planner` path redirects the browser to the external planner, so old bookmarks and saved notification actions do not reopen the removed in-app page.
 
 ## State and data flow
 
